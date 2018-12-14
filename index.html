@@ -8,22 +8,27 @@
     <div>
       <h1>Triangle Tracker Program</h1>
       <h3>Definition of a triangle</h3>
-        <p>a plane figure with three straight sides and three angles.</p>
+        <p><b>Triangle</b>:is a plane figure with three straight sides and three angles.</p>
       <h3>Types of a triangle</h3>
-        <p>Equilateral<br>Iscoceless<br>Scalene</p>
-        <h3>Equilateral</h3>
-        <p>A triangle that has all sides equal</p>
-        <div id="equivt">Equilateral
-    </div>
-      <h3>Iscoceless</h3>
-        <p>a triangle in which two sides have the same length</p>
-        <p>A scalene triangle is a triangle that has three unequal sides</p>
+      <ul>
+          <li>Equilateral</li>
+          <dd>A triangle that has all sides equal</dd>
+          <li>Iscoceles</li>
+          <dd>A triangle in which two sides have the same length</dd>
+          <li>Scalene</li>
+          <dd>A scalene triangle is a triangle that has three unequal sides</dd>
+      </ul>
       <script src="scripts.js"></script>
   </div>
+  <h3>HOW TO KNOW TYPE OF TRIANGLE</h3>
+  <p id="ex">Please enter the length of sides
+      <input type="number" id="side1" placeholder="length of side 1">
+      <input type="number" id="side2" placeholder="length of side 2">
+      <input type="number" id="side3" placeholder="length of side 3">
+      <button type="button" onclick="getResult()">result</button>
+  </p>
 
-  <div class="wrapper">
-    <button type = "button" onclick = "getResult()">Try It Out</button>
-  </div>
+  
 
   </body>
 </html>

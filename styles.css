@@ -1,5 +1,6 @@
 #equivt{
-    border-right: 30px;
-    border-left: 30px;
-    border-bottom: 30px blue;
+    width: 0;
+    border-right: 30px solid transparent;
+    border-left: 30px solid transparent ;
+    border-bottom: 30px rgb(250,0,0);
 }
