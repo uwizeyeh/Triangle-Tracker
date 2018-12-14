@@ -5,6 +5,7 @@ function getResult(){
     
     if(side1 === side2 && side2 === side3){
     alert("Equilateral");
+    window.location.href="eqvrt.html";
     }
     else if(side1 === side2 || side1 === side3 || side2 === side3){
     alert("Isosceles");
