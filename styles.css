@@ -1,6 +1,12 @@
 #equivt{
     width: 0;
-    border-right: 30px solid transparent;
-    border-left: 30px solid transparent ;
-    border-bottom: 30px rgb(250,0,0);
+    border-right: 90px solid transparent;
+    border-left: 90px solid transparent ;
+    border-bottom: 90px solid rgb(250,0,0);
+}
+#Iscocele{
+    width: 0;
+    border-right: 90px solid transparent;
+    border-left: 90px solid transparent ;
+    border-bottom: 70px solid rgb( #008000);
 }
