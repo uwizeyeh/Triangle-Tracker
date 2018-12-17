@@ -16,6 +16,7 @@ function getResult(){
     }
     else{
     alert("Scalene");
+    window.location.href="scal.html";
     }
     }
   

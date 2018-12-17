@@ -1,12 +1,22 @@
 #equivt{
     width: 0;
-    border-right: 90px solid transparent;
-    border-left: 90px solid transparent ;
-    border-bottom: 90px solid rgb(250,0,0);
+    border-right: 250px solid transparent;
+    border-left: 250px solid transparent ;
+    border-bottom: 250px solid rgb(250,0,0);
 }
 #Iscocele{
     width: 0;
-    border-right: 90px solid transparent;
-    border-left: 90px solid transparent ;
-    border-bottom: 70px solid rgb( #008000);
+    border-right: 250px solid transparent;
+    border-left: 250px solid transparent ;
+    border-bottom: 200px solid rgb( #008000);
+}
+#scalene{
+    width: 0;
+    border-right: 230px solid transparent;
+    border-left: 250px solid transparent ;
+    border-bottom: 200px solid rgb( #008000);
+}
+
+body{
+    background-color: indianred;
 }
